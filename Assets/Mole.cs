@@ -9,10 +9,10 @@ public class Mole : MonoBehaviour
     private Vector3 moleNewPos;
     public float moveDownTimer = 1.5f;
 
-
     public float speed = 2f;
 
-    public Player player;
+    private Player player;
+    public AudioSource whack;
     // Start is called before the first frame update
     void Start()
     {
@@ -65,6 +65,7 @@ public class Mole : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            whack.Play();
             player.score += 1;
             player.scoreText.text = "Score: " + player.score;
             MoveDown();

@@ -23,101 +23,187 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown("[1]"))
         {
-            animator.SetBool("onePressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole1();
         }
         if (Input.GetKeyUp("[1]"))
         {
-            animator.SetBool("onePressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole1();
         }
         if (Input.GetKeyDown("[2]"))
         {
-            animator.SetBool("twoPressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole2();
         }
         if (Input.GetKeyUp("[2]"))
         {
-            animator.SetBool("twoPressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole2();
         }
         if (Input.GetKeyDown("[3]"))
         {
-            animator.SetBool("threePressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole3();
         }
         if (Input.GetKeyUp("[3]"))
         {
-            animator.SetBool("threePressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole3();
         }
         if (Input.GetKeyDown("[4]"))
         {
-            animator.SetBool("fourPressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole4();
         }
         if (Input.GetKeyUp("[4]"))
         {
-            animator.SetBool("fourPressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole4();
         }
         if (Input.GetKeyDown("[5]"))
         {
-            animator.SetBool("fivePressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole5();
         }
         if (Input.GetKeyUp("[5]"))
         {
-            animator.SetBool("fivePressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole5();
         }
         if (Input.GetKeyDown("[6]"))
         {
-            animator.SetBool("sixPressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole6();
         }
         if (Input.GetKeyUp("[6]"))
         {
-            animator.SetBool("sixPressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole6();
         }
         if (Input.GetKeyDown("[7]"))
         {
-            animator.SetBool("sevenPressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole7();
         }
         if (Input.GetKeyUp("[7]"))
         {
-            animator.SetBool("sevenPressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole7();
         }
         if (Input.GetKeyDown("[8]"))
         {
-            animator.SetBool("eightPressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole8();
         }
         if (Input.GetKeyUp("[8]"))
         {
-            animator.SetBool("eightPressed", false);
-            animator.SetBool("isHitting", false);
+            ReleaseMole8();
         }
         if (Input.GetKeyDown("[9]"))
         {
-            animator.SetBool("ninePressed", true);
-            animator.SetBool("isHitting", true);
+            HitMole9();
         }
         if (Input.GetKeyUp("[9]"))
         {
-            animator.SetBool("ninePressed", false);
-            animator.SetBool("isHitting", false);
-           
+            ReleaseMole9();
+
         }
 
 
     }
 
-    //public void AppendScore()
-    //{
-        //scores.Add(score);
-    //}
+    public void HitMole1()
+    {
+        animator.SetBool("onePressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole1()
+    {
+        animator.SetBool("onePressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole2()
+    {
+        animator.SetBool("twoPressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole2()
+    {
+        animator.SetBool("twoPressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole3()
+    {
+        animator.SetBool("threePressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole3()
+    {
+        animator.SetBool("threePressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole4()
+    {
+        animator.SetBool("fourPressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole4()
+    {
+        animator.SetBool("fourPressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole5()
+    {
+        animator.SetBool("fivePressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole5()
+    {
+        animator.SetBool("fivePressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole6()
+    {
+        animator.SetBool("sixPressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole6()
+    {
+        animator.SetBool("sixPressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole7()
+    {
+        animator.SetBool("sevenPressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole7()
+    {
+        animator.SetBool("sevenPressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole8()
+    {
+        animator.SetBool("eightPressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole8()
+    {
+        animator.SetBool("eightPressed", false);
+        animator.SetBool("isHitting", false);
+    }
+    public void HitMole9()
+    {
+        animator.SetBool("ninePressed", true);
+        animator.SetBool("isHitting", true);
+
+
+    }
+    public void ReleaseMole9()
+    {
+        animator.SetBool("ninePressed", false);
+        animator.SetBool("isHitting", false);
+    }
 }

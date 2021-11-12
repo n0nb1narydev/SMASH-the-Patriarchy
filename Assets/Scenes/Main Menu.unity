@@ -917,7 +917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: whack-a-douche edition
+  m_Text: whack-a-troll
 --- !u!222 &739388786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1508,15 +1508,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Use the number pad to target each hole. The holes are laid out just as
-    the numbers on the number pad:
+  m_Text: 'number/key pad:
 
-    OOO     789
+    789
 
-    OOO     456
+    456
 
-    OOO    
-    123'
+    123
+
+
+    or
+
+    mouse click'
 --- !u!222 &1922002976
 CanvasRenderer:
   m_ObjectHideFlags: 0
