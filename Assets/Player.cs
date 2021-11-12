@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
     public Animator animator;
     public int score;
     public Text scoreText;
+    //public List<int> scores = new List<int>();
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -109,5 +112,12 @@ public class Player : MonoBehaviour
             animator.SetBool("isHitting", false);
            
         }
+
+
     }
+
+    //public void AppendScore()
+    //{
+        //scores.Add(score);
+    //}
 }
